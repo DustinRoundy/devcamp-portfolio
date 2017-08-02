@@ -1,10 +1,4 @@
 GIT
-  remote: https://github.com/fishy4341/DR_view_tool
-  revision: 73f0ad2cb9e139c169c91ad275860bd3b12f8d70
-  specs:
-    DR_view_tool (0.1.0)
-
-GIT
   remote: https://github.com/twbs/bootstrap-rubygem
   revision: bd3d58a56c46d1f87785298706b136b73c192b8b
   specs:
@@ -16,6 +10,7 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
+    DR_view_tool (0.1.0)
     actioncable (5.0.3)
       actionpack (= 5.0.3)
       nio4r (>= 1.2, < 3.0)
@@ -187,7 +182,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  DR_view_tool!
+  DR_view_tool (~> 0.1.0)
   bootstrap!
   byebug
   coffee-rails (~> 4.2)
